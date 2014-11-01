@@ -10,14 +10,10 @@ body {
   background: linear-gradient(to bottom, #fcfff4 0%, #e9e9ce 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfff4', endColorstr='#e9e9ce', GradientType=0);
 }
-body h1 {
-  font-size: 24px;
-}
 .header {
   display: block;
   height: 150px;
   background-color: #5B4634;
-  border-bottom: 3px solid #f4d30e;
   background: ##4d3a10;
   background-image: url("../img/zenbg-1.png"), url("../img/zenbg-2.png");
   background-repeat: repeat-x, repeat;
@@ -57,7 +53,8 @@ body h1 {
 }
 .navbar-default {
   background-color: #77ba43;
-  border: none;
+  border-bottom: 3px solid #f4d30e;
+  margin-bottom: 0;
 }
 .navbar-default .collapse {
   display: block;
@@ -81,8 +78,30 @@ body h1 {
   color: #f4d30e;
   background: none;
 }
+.navbar-default .navbar-nav .open a:hover {
+  background: none;
+  color: #f6dc3f;
+}
 .navbar-default .dropdown-menu {
   background-color: #77ba43;
+}
+.homepage-message-container {
+  background: ##4d3a10;
+  background-image: url("../img/zenbg-1.png"), url("../img/zenbg-2.png");
+  background-repeat: repeat-x, repeat;
+}
+.page-header {
+  width: 960px;
+  margin: 0 auto 20;
+  color: white;
+  border-bottom: none;
+}
+.page-header h1 {
+  float: right;
+  margin-bottom: 20px;
+}
+.page-header h1 small {
+  color: white;
 }
 .homepage-content {
   width: 960px;
@@ -98,6 +117,31 @@ body h1 {
 }
 .btn-primary:hover {
   background-color: #6ba73c;
+}
+.page-content {
+  width: 960px;
+  margin: 60 auto;
+}
+.page-content hr {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.page-content h3 {
+  margin-top: 30px;
+}
+.page-content h4 {
+  text-transform: uppercase;
+}
+.page-content ul {
+  margin-top: 25px;
+}
+.page-content li {
+  margin-left: 15px;
+}
+blockquote {
+  border-color: #333;
+  font-size: 16px;
+  font-style: italic;
 }
 hr {
   margin-top: 20px;
