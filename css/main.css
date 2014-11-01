@@ -14,8 +14,8 @@ body {
   display: block;
   height: 150px;
   background-color: #5B4634;
-  background: ##4d3a10;
-  background-image: url("../img/zenbg-1.png"), url("../img/zenbg-2.png");
+  background: #4d3a10;
+  background-image: url("http://drewfranz.github.io/fbc-everett/img/zenbg-1.png"), url("http://drewfranz.github.io/fbc-everett/img/zenbg-2.png");
   background-repeat: repeat-x, repeat;
 }
 .header .container {
@@ -86,8 +86,8 @@ body {
   background-color: #77ba43;
 }
 .homepage-message-container {
-  background: ##4d3a10;
-  background-image: url("../img/zenbg-1.png"), url("../img/zenbg-2.png");
+  background: #4d3a10;
+  background-image: url("http://drewfranz.github.io/fbc-everett/img/zenbg-1.png"), url("http://drewfranz.github.io/fbc-everett/img/zenbg-2.png");
   background-repeat: repeat-x, repeat;
 }
 .page-header {
